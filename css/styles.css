@@ -1,0 +1,83 @@
+body {
+    background-color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
+}
+.logo {
+    color: rgba(77, 90, 229, 1);
+}
+.logos {
+    color: #2E2F42;
+}
+/* забрати чорні точки */
+.ul {
+    list-style: none;
+}
+/* колір тексту імейла в шапці */
+.site-nav a {
+    color: #2E2F42;
+}
+
+.auth-nav a {
+    color: #434455;
+}
+
+/* кнопкам задаю ховер */
+.site button {
+    color: #4D5AE5;
+}
+.site button:hover {
+    color: #FFFFFF;
+}
+.site button:focus {
+   color: #FFFFFF;
+   background: #4D5AE5;
+}
+/*  додаємо колір відразу усім заголовкам h */
+.hero-title {
+    color: #2E2F42;
+}
+
+
+/* додаємо колір у параграфи р */
+.list {
+    color: #434455;
+
+}
+
+/* колір тексту футера */
+
+.footer {
+    color:  #E7E9FC;
+    background: #2E2F42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-nav a {
+
+}
