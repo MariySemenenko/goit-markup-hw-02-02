@@ -1,55 +1,91 @@
-body {
-    background-color: #FFFFFF;
-    color: rgba(255, 255, 255, 1);
+
+/* змінні */
+
+:root {
+    --paragraph-text-color:#434455;
+    --title-text-color:#434455;
+    --violet-text-color:#4D5AE5;
+    --color-body-color:#FFFFFF;
+    --text-nav-color:#2E2F42;
+    --text-adress-color:#434455;
+    --text-heder-color: #4D5AE5;
+    --text-title-color: #2E2F42; 
+    --text-list-color:#434455;
 }
-.logo {
+
+
+ .page { 
+    color: var(--color-body-color);
+    background-color: #FFFFFF;
+    
+}
+/* logotip */
+
+.logo-web {
     color: rgba(77, 90, 229, 1);
 }
-.logos {
+.logo-studio {
     color: #2E2F42;
 }
-/* забрати чорні точки */
-.ul {
-    list-style: none;
-}
-/* колір тексту імейла в шапці */
+
+/* олір тексту імейла в шапці  */
 .site-nav a {
-    color: #2E2F42;
+ color: var(--text-nav-color);   
 }
-
+/*adress*/
 .auth-nav a {
-    color: #434455;
+    color: var(--text-adress-color);
 }
-
-/* кнопкам задаю ховер */
+/*задаємо кнопкап futer та heder*/
 .site button {
-    color: #4D5AE5;
+    color: var(--text-heder-color);
 }
 .site button:hover {
     color: #FFFFFF;
 }
 .site button:focus {
    color: #FFFFFF;
-   background: #4D5AE5;
+   background: var(--text-heder-color);
 }
-/*  додаємо колір відразу усім заголовкам h */
+/*додаємо колір відразу усім заголовкам h*/
 .hero-title {
-    color: #2E2F42;
+    color: var(--text-title-color);
 }
-
-
-/* додаємо колір у параграфи р */
+/*додаємо колір у параграфи р */
 .list {
-    color: #434455;
+    color: var(--text-list-color);
+}
+/*колір тексту футера */
 
+.footer {      
+    color: #E7E9FC;
+    background: var(--text-title-color);
+ }
+
+
+
+
+
+
+/* забрати чорні точки 
+.ul {
+    list-style: none;
 }
 
-/* колір тексту футера */
+
+
+
+
+
+
+
+ колір тексту футера 
 
 .footer {
     color:  #E7E9FC;
     background: #2E2F42;
 }
+*/
 
 
 
@@ -77,7 +113,3 @@ body {
 
 
 
-
-.site-nav a {
-
-}
