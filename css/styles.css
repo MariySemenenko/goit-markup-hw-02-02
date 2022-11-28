@@ -12,17 +12,17 @@
 }
 
 body {
-  color: var(--paragraph-primary-color);
+  color: var(--background-primary-color);
   font-family: 'Roboto', sans-serif;
 }
 
 ul {
   list-style: none;
 }
-
 .no-decoration {
   text-decoration: none;
 }
+
 
 /* logo */
 .logo {
@@ -72,9 +72,7 @@ ul {
 .hero-btn {
   width: 170px;
   height: 51px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background-color: var(--brand-color);
   font-family: inherit;
   font-weight: 600;
   line-height: 1.18;
@@ -128,21 +126,16 @@ ul {
 
 .portfolio-filter-bnt:hover,
 .portfolio-filter-btn:focus {
-  background: #4d5ae5;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--brand-color);
   color: var(--background-primary-color);
 }
 
 /* Footer */
 .footer {
-  background-color: #2E2F42;;
+  background-color: var(--title-primary-color);
 }
 .logo-footer {
   color: var(--background-primary-color);
 }
 
 
-/* <a class="logo no-decoration logo-footer" href="./index.html"
-        >Web<span class="logo-accent">Studio</span></a
-      > */
