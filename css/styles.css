@@ -9,9 +9,11 @@
   --nav-link-color: #2e2f42;
   --contacts-link-color: #434455;
   --link-hover-color: #4d5ae5;
+  --byn-background-color: #f4f4fd;
 }
 
 body {
+  background-color: var(--background-primary-color);
   color: var(--background-primary-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -70,8 +72,6 @@ ul {
 }
 
 .hero-btn {
-  width: 170px;
-  height: 51px;
   background-color: var(--brand-color);
   font-family: inherit;
   font-weight: 600;
@@ -112,10 +112,7 @@ ul {
 
 /* Portfolio */
 .portfolio-filter-bnt {
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-
+  background-color: var(--byn-background-color);
   font-family: inherit;
   font-weight: 600;
   line-height: 1.5;
