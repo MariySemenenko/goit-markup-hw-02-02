@@ -15,7 +15,7 @@
 body {
   background-color: var(--background-primary-color);
   color: var(--background-primary-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 ul {
@@ -24,6 +24,20 @@ ul {
 .no-decoration {
   text-decoration: none;
 }
+.link-no-decoration {
+  text-decoration: none;
+}
+.nav-link-no-decoration {
+  text-decoration: none;
+}
+.portfolio-link {
+text-decoration: none;
+}
+/* .portfolio-list {
+  text-decoration: none;
+} */
+
+
 
 
 /* logo */
@@ -62,6 +76,8 @@ ul {
 }
 
 /* Hero */
+
+
 .hero-title {
   font-weight: 600;
   font-size: 56px;
@@ -79,6 +95,7 @@ ul {
   line-height: 1.18;
   letter-spacing: 0.04em;
   color: var(--title-secondary-color);
+  cursor: pointer;
 }
 
 .section-title {
@@ -110,16 +127,20 @@ ul {
 /* Works section*/
 
 /* Team section */
+.section-team {
+  background: #F4F4FD;
+}
 
 /* Portfolio */
 .portfolio-filter-bnt {
   background-color: var(--byn-background-color);
-  font-family: inherit;
   font-weight: 600;
+  font-size: 16px
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--brand-color);
+  cursor: pointer;
 }
 
 .portfolio-filter-bnt:hover,
