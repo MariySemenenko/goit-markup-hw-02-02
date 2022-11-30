@@ -26,17 +26,17 @@ ul {
 }
 .link-no-decoration {
   text-decoration: none;
-}
+} 
 .nav-link-no-decoration {
   text-decoration: none;
 }
 .portfolio-link {
 text-decoration: none;
 }
-/* .portfolio-list {
-  text-decoration: none;
-} */
 
+.nav-link-no-decoration {
+  text-decoration: none
+}
 
 
 
@@ -60,13 +60,13 @@ text-decoration: none;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.02em;
-}
+} 
 
 .contacts-link {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--contacts-link-color);
-}
+} 
 
 .nav-link:hover,
 .nav-link:focus,
@@ -75,7 +75,23 @@ text-decoration: none;
   color: var(--link-hover-color);
 }
 
+.nav-item {
+  color: color: #2E2F42;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+} 
+
+
+
+
 /* Hero */
+
+.hero {
+background: #2E2F42
+} 
+
+
 
 
 .hero-title {
@@ -107,6 +123,13 @@ text-decoration: none;
   text-transform: capitalize;
   color: var(--title-primary-color);
 }
+
+/* =================background====================== */
+
+.text-background {
+  color: #FFFFFF;
+}
+
 
 /* Features section*/
 
