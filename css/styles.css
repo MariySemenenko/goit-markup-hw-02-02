@@ -127,7 +127,7 @@ background: #2E2F42
 /* =================background====================== */
 
 .text-background {
-  color: #FFFFFF;
+  color: var(--background-primary-color);
 }
 
 
